@@ -47,7 +47,7 @@
                                     Welcome, <span
                                         style="font-weight:bold;color:#ef392b;">{{ Auth::user()->name }}</span>&nbsp;&nbsp;&nbsp;|
                                     &nbsp;&nbsp;&nbsp;
-                                    <a href="home" title="Admin Panel"><i class="fa fa-cube"></i> Panel</a>
+                                    <a href="admin/home" title="Admin Panel"><i class="fa fa-cube"></i> Panel</a>
                                 </li>
                                 @endguest
                             </ul>
